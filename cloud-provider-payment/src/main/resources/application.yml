@@ -1,0 +1,23 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: "jdbc:mysql://192.9.210.8:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
+      username: "root"
+      password: "123456"
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: public
+
+
+
+
+

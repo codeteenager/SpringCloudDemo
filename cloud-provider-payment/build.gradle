@@ -1,0 +1,13 @@
+group 'cn.com.codeteenager.cloudproviderpayment'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation 'com.alibaba:druid-spring-boot-starter:1.2.9'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.7.RELEASE'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.1'
+    runtimeOnly 'mysql:mysql-connector-java'
+}
+
+test {
+    useJUnitPlatform()
+}
