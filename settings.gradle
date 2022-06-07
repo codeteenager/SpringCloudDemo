@@ -2,4 +2,5 @@ rootProject.name = 'SpringCloud'
 include 'cloud-api-commons'
 include 'cloud-provider-payment'
 include 'cloud-provider-order'
+include 'gateway'
 

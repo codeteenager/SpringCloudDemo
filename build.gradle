@@ -46,7 +46,6 @@ allprojects {
 //设定当前模块项目中的配置
 subprojects {
     dependencies {
-        implementation "org.springframework.boot:spring-boot-starter-web"
         annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
         compileOnly 'org.projectlombok:lombok'
         developmentOnly 'org.springframework.boot:spring-boot-devtools'

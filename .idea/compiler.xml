@@ -9,9 +9,10 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.12.RELEASE/36c6cbb35ca07dc8810e913edfe045d8f89a303d/spring-boot-configuration-processor-2.3.12.RELEASE.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
         </processorPath>
-        <module name="SpringCloud.cloud-provider-order.main" />
+        <module name="SpringCloud.gateway.main" />
         <module name="SpringCloud.cloud-api-commons.main" />
         <module name="SpringCloud.cloud-provider-payment.main" />
+        <module name="SpringCloud.cloud-provider-order.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />
